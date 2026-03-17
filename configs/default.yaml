@@ -1,0 +1,18 @@
+seed: 42
+simulation:
+  t_final: 15.0
+  dt: 0.02
+  discard_fraction: 0.4
+  beta_range: [0.3, 3.0]
+  gamma_range: [0.0, 1.0]
+  omega_range: [1.5, 20.0]
+  theta0_range: [-0.2, 2.9]
+  phi0_range: [-0.8, 0.8]
+training:
+  batch_size: 64
+  epochs: 30
+  lr: 0.001
+  weight_decay: 0.0001
+model:
+  hidden_dim: 128
+  num_layers: 2
