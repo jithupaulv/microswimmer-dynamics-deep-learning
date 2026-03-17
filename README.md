@@ -1,6 +1,6 @@
 # Magnetic Microswimmer Dynamics with LSTM, PINN, and Baseline Comparisons
 
-A GitHub-ready research project that turns the reduced magnetic microswimmer dynamics into a machine-learning benchmark for:
+This research project turns the reduced magnetic microswimmer dynamics into a machine-learning benchmark for:
 
 - **summary prediction** from simulation data
 - **sequence forecasting** with an **LSTM**
