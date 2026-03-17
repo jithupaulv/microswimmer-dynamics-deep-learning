@@ -59,8 +59,6 @@ This repository uses:
 - **Eq. (25)** for numerical instantaneous speed
 - **Eq. (27)** as inspiration for mean-speed evaluation and asymptotic comparisons
 
-Those equations appear in the paper’s reduced-model and asymptotic analysis. fileciteturn2file0L61-L73 fileciteturn2file1L97-L130 fileciteturn2file1L159-L186
-
 ## Quickstart
 
 ### 1) Install
@@ -159,22 +157,4 @@ Loss:
 - reduced-ODE residual loss from Eq. (4)
 - optional compact residual from Eq. (8)
 
-## Why this project is strong on GitHub
 
-- clean scientific simulation pipeline
-- real sequence modeling with an LSTM
-- a PINN with explicit residual constraints
-- clear baseline comparisons
-- easy extension to bifurcation maps and stability diagrams
-
-## Suggested extensions
-
-- transformer sequence model
-- neural operator for parameter-to-trajectory learning
-- basin-of-attraction maps
-- stability classifier near the pitchfork transition
-- reproducing the paper’s speed and bifurcation curves more directly
-
-## Citation
-
-If you use the underlying dynamics in academic work, cite the original paper.
